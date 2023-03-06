@@ -20,7 +20,87 @@
   <body class="body" >
         <!-- Comienzo Header -->
         <header class="Header">
-            <nav class="navbar"></nav>
+            <nav class="navbar">
+                <figure class="navbar__logo" > <!-- TODO: Agregar logo! -->
+                    <img
+                        width="32px"
+                        height="32px"
+                        class="navbar__logo--img"
+                        alt="Logo"
+                        src=""
+                    />
+                    <figcaption class="navbar__logo--caption" >
+
+                    </figcaption>
+                </figure>
+                <ul class="navbar__menu" >
+                    <li class="navbar__menu--item" >
+                        <a href="#to__NavbarMenu--inicio" target="" tabindex="1" >
+                            <span>Inicio</span>
+                        </a>
+                    </li>
+                    <li class="navbar__menu--item" >
+                        <a href="#to__NavbarMenu--blog" target="" tabindex="2" >
+                            <span lang="en">Blog</span>
+                            <figure>
+                                <img
+                                    width="16px"
+                                    height="16px"
+                                    alt="Menu button down"
+                                    class=""
+                                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPg0KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iIzAwMDAwMCIgZD0iTTEwNC43MDQgMzM4Ljc1MmE2NCA2NCAwIDAgMSA5MC40OTYgMGwzMTYuOCAzMTYuOCAzMTYuOC0zMTYuOGE2NCA2NCAwIDAgMSA5MC40OTYgOTAuNDk2TDU1Ny4yNDggNzkxLjI5NmE2NCA2NCAwIDAgMS05MC40OTYgMEwxMDQuNzA0IDQyOS4yNDhhNjQgNjQgMCAwIDEgMC05MC40OTZ6Ii8+PC9zdmc+"
+                                />
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="navbar__menu--item" >
+                        <a href="to__NavbarMenu--recursos" target="" tabindex="3" > 
+                            <span>Recursos</span>
+                            <figure>
+                                <img
+                                    width="16px"
+                                    height="16px"
+                                    alt="Menu button down"
+                                    class=""
+                                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPg0KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iIzAwMDAwMCIgZD0iTTEwNC43MDQgMzM4Ljc1MmE2NCA2NCAwIDAgMSA5MC40OTYgMGwzMTYuOCAzMTYuOCAzMTYuOC0zMTYuOGE2NCA2NCAwIDAgMSA5MC40OTYgOTAuNDk2TDU1Ny4yNDggNzkxLjI5NmE2NCA2NCAwIDAgMS05MC40OTYgMEwxMDQuNzA0IDQyOS4yNDhhNjQgNjQgMCAwIDEgMC05MC40OTZ6Ii8+PC9zdmc+"
+                                />
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="navbar__menu--item" >
+                        <a href="#to__NavbarMenu--about" target="" tabindex="4" >
+                            <span>Sobre el autor</span>
+                            <figure>
+                                <img
+                                    width="16px"
+                                    height="16px"
+                                    alt="Menu button down"
+                                    class=""
+                                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPg0KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iIzAwMDAwMCIgZD0iTTEwNC43MDQgMzM4Ljc1MmE2NCA2NCAwIDAgMSA5MC40OTYgMGwzMTYuOCAzMTYuOCAzMTYuOC0zMTYuOGE2NCA2NCAwIDAgMSA5MC40OTYgOTAuNDk2TDU1Ny4yNDggNzkxLjI5NmE2NCA2NCAwIDAgMS05MC40OTYgMEwxMDQuNzA0IDQyOS4yNDhhNjQgNjQgMCAwIDEgMC05MC40OTZ6Ii8+PC9zdmc+"
+                                />
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+                <div class="CTA" >
+                    <a 
+                        href=""
+                        target="_blank"
+                        class="CTA__link"
+                        tabindex="5"
+                    >Ir a LinkedIn</a>
+                    <button
+                        tabindex="6"
+                        aria-role="button"
+                        aria-expanded="false"
+                        aria-presed="false"
+                        class="CTA__email"
+                    >
+                        <span>Dime 'Hola!'</span>
+                        <span>🖖</span>
+                    </button>
+                </div>
+            </nav>
         </header>
         <!-- Fin Header -->
         <!-- Comienzo Aside -->
