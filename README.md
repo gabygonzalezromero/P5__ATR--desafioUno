@@ -4,7 +4,7 @@
 ---
 ## Desafio Uno : *Crea tu blog*
 
-## Deploy : ![Ir al sitio en Netlify](https://p5-atr-desafio-uno.netlify.app/)
+## Deploy : [Ir al sitio en Netlify](https://p5-atr-desafio-uno.netlify.app/)
 
 ---
 ### Consigna
@@ -28,8 +28,8 @@ _Creá un blog con los siguientes recursos:_
  ---
 ### Recursos
 
- - Inspiracion : ![UI Kit - Dribbble](https://dribbble.com/shots/18567045-Minimal-blog-post-Untitled-UI).
- - Iconos : ![SVPRepo](https://www.svgrepo.com/)
-    - ![UI Elements Icons](https://www.svgrepo.com/collection/element-plus-line-interface-icons/)
-    - ![Social Media Icons](https://www.svgrepo.com/collection/uiw-interface-icons/)
- - Compresor imagenes : ![Base64 Encoder](https://jpillora.com/base64-encoder/)
+ - Inspiracion : [UI Kit - Dribbble](https://dribbble.com/shots/18567045-Minimal-blog-post-Untitled-UI).
+ - Iconos : [SVPRepo](https://www.svgrepo.com/)
+    - [UI Elements Icons](https://www.svgrepo.com/collection/element-plus-line-interface-icons/)
+    - [Social Media Icons](https://www.svgrepo.com/collection/uiw-interface-icons/)
+ - Compresor imagenes : [Base64 Encoder](https://jpillora.com/base64-encoder/)
