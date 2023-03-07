@@ -3,6 +3,7 @@
   <head>
 
     <meta charset="UTF-8" />
+    <meta http-equiv="content-language" content="es , en , la">
     <meta name="description" content="" />
     <meta name="author" content="" />
     <meta name="copyright" content="" />
@@ -35,12 +36,12 @@
                 </figure>
                 <ul class="navbar__menu" >
                     <li class="navbar__menu--item" >
-                        <a href="#to__NavbarMenu--inicio" target="" tabindex="1" >
+                        <a href="#to__NavbarMenu--inicio" target="_self" tabindex="1" >
                             <span>Inicio</span>
                         </a>
                     </li>
                     <li class="navbar__menu--item" >
-                        <a href="#to__NavbarMenu--blog" target="" tabindex="2" >
+                        <a href="#to__NavbarMenu--blog" target="_self" tabindex="2" >
                             <span lang="en">Blog</span>
                             <figure>
                                 <img
@@ -54,7 +55,7 @@
                         </a>
                     </li>
                     <li class="navbar__menu--item" >
-                        <a href="to__NavbarMenu--recursos" target="" tabindex="3" > 
+                        <a href="to__NavbarMenu--recursos" target="_self" tabindex="3" > 
                             <span>Recursos</span>
                             <figure>
                                 <img
@@ -68,7 +69,7 @@
                         </a>
                     </li>
                     <li class="navbar__menu--item" >
-                        <a href="#to__NavbarMenu--about" target="" tabindex="4" >
+                        <a href="#to__NavbarMenu--about" target="_self" tabindex="4" >
                             <span>Sobre el autor</span>
                             <figure>
                                 <img
@@ -82,7 +83,7 @@
                         </a>
                     </li>
                 </ul>
-                <div class="CTA" >
+                <menu class="CTA" >
                     <a 
                         href=""
                         target="_blank"
@@ -99,7 +100,7 @@
                         <span>Dime 'Hola!'</span>
                         <span>🖖</span>
                     </button>
-                </div>
+                </menu>
             </nav>
         </header>
         <!-- Fin Header -->
@@ -107,7 +108,276 @@
         <aside class="Aside"></aside>
         <!-- Fin Aside -->
         <!-- Comienzo Main -->
-        <main class="Main"></main>
+        <main class="Main">
+            <section class="section">
+                <article class="article">
+                    <header>
+                        <hgroup>
+                            <p class="" >
+                                <span class="tag">Design</span>
+                            </p>
+                            <h1 class="title" >UX review presentations</h1>
+                            <h4 class="subtitle" >
+                                How do you create compelling presentations that wow your colleagues and
+                                impress your managers? Here's how to get started.
+                            </h4>
+                        </hgroup>
+                        <div>
+                            <picture class="author" >
+                                <img
+                                    width="48px"
+                                    height="48px"
+                                    loading="lazy"
+                                    decoding="async"
+                                    class="avatar"
+                                    alt="Avatar author"
+                                    src="./images/avatar.png"
+                                />
+                            </picture>
+                            <p>
+                                <span class="name" >Gaby Gonzalez Romero</span>
+                                <br>
+                                <span class="date" >
+                                    <time datetime="2023-03-06" > 06 March 2023</time>
+                                </span>
+                            </p>
+                        </div>
+                        <picture>
+                            <source 
+                                srcset="./images/image1--lg.png 1x"
+                                media="(min-width: 90em )"
+                                width="1400px"
+                                height="960px"
+                            />
+                            <source 
+                                srcset="./images/image1--sm.png 1x , ./images/image1--md.png 2x"
+                                media="(min-width: 50em )"
+                                width="830px"
+                                height="550px"
+                            />
+                            <source 
+                                srcset="./images/image1--sm.png 1x , ./images/image1--md.png 2x , ./images/image1--sm 3x"
+                                media="(min-width: 22em )"
+                                width="360px"
+                                height="240px"
+                            />
+                            <img
+                                width="830px"
+                                height="550px"
+                                loading="lazy"
+                                decoding="async"
+                                class=""
+                                alt="Una persona sentada en una mesa, en una oficina, trabajando con su laptop"
+                                src="./images/image1--md.png"
+                                srcset="
+                                ./images/image1--sm.png 1x ,
+                                ./images/image1--md.png 2x ,
+                                ./images/image1--lg.png 3x"
+                            />
+                        </picture>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ad aspernatur dolores fugiat tempora eum amet nobis deserunt ratione! Cum voluptas sequi accusamus consequatur enim nobis ratione aliquid nihil rem earum, et voluptate commodi tempore autem amet provident obcaecati blanditiis?
+                        </p>
+                        <hr>
+                    </header>
+
+                    <aside></aside>
+                    
+                    <main>
+                        <h3>Introduction</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ab labore ad, laudantium obcaecati rerum? Accusamus, dolorem dolore. Dolor quaerat odit, suscipit error veniam cumque delectus nobis facilis, perferendis modi quis quisquam nisi ipsam? Dolorum ut quaerat quasi, numquam iusto aut maxime laborum suscipit, iure quam impedit incidunt porro harum?
+                        </p>
+                        <picture>
+                            <source 
+                                srcset="./images/image2--lg.png 1x"
+                                media="(min-width: 90em )"
+                                width="1400px"
+                                height="960px"
+                            />
+                            <source 
+                                srcset="./images/image2--sm.png 1x , ./images/image2--md.png 2x"
+                                media="(min-width: 50em )"
+                                width="830px"
+                                height="550px"
+                            />
+                            <source 
+                                srcset="./images/image2--sm.png 1x , ./images/image2--md.png 2x , ./images/image2--sm 3x"
+                                media="(min-width: 22em )"
+                                width="360px"
+                                height="240px"
+                            />
+                            <img
+                                width="830px"
+                                height="550px"
+                                loading="lazy"
+                                decoding="async"
+                                class=""
+                                alt="Vista de una oficina, con una mesa de trabajo comunitaria y una
+                                biblioteca grande en la pared de fondo"
+                                src="./images/image2--md.png"
+                                srcset="
+                                ./images/image2--sm.png 1x ,
+                                ./images/image2--md.png 2x ,
+                                ./images/image2--lg.png 3x"
+                            />
+                        </picture>
+                        <figure>
+                            <blockquote>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum possimus praesentium, officiis tempore natus ipsam.
+                                </p>
+                            </blockquote>
+                            <figcation>
+                                <cite>- Olivia Rhye, Product Designer</cite>
+                            </figcation>
+                        </figure>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, accusantium a necessitatibus voluptates veniam esse eius quia sit perspiciatis sed fugiat, voluptatibus veritatis iste dolorem ipsum, optio quos totam labore cum placeat asperiores corrupti. Dignissimos esse hic eaque porro facilis fugit tenetur dolore neque sit necessitatibus iste, delectus, voluptate labore odio eveniet alias ducimus laudantium minus repellat a quaerat ullam. Laborum laboriosam eaque consequuntur, vel unde aspernatur explicabo dolor natus officia minima vitae voluptatem. Praesentium a sint magni mollitia maiores. Quibusdam animi debitis enim expedita alias ut inventore quae consectetur consequatur! Quibusdam ipsa a corporis temporibus deserunt tempore, consequuntur explicabo.
+                        </p>
+
+                        <h3>Software and tools</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi assumenda aspernatur corrupti illo quod? Voluptatum obcaecati laboriosam aliquam ducimus voluptatibus nihil molestiae maxime facere iste doloribus nam dicta ad impedit magnam, distinctio reprehenderit sapiente nobis temporibus neque. Autem error necessitatibus modi sint et ex ad repudiandae labore corporis cum corrupti vitae, blanditiis exercitationem consequatur quam molestias a! Officiis cum voluptatibus, rem dolorum fuga unde vero quae ab. 
+                        </p>
+
+                        <h3>Other resources</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sunt, minima rem repellendus nulla nobis, deleniti voluptatem accusantium fuga magni quae a numquam laudantium quia maxime libero eligendi necessitatibus reprehenderit.
+                        </p>
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. <a href="#" >Assumenda, dolor!</a></li>
+                            <li>Lorem ipsum <a href="#" >dolor sit</a>, amet consectetur adipisicing.</li>
+                            <li>Lorem <a href="#" >ipsum dolor sit</a> amet.</li>
+                        </ol>
+                        <picture>
+                            <source 
+                                srcset="./images/image3--lg.png 1x"
+                                media="(min-width: 90em )"
+                                width="1400px"
+                                height="960px"
+                            />
+                            <source 
+                                srcset="./images/image3--sm.png 1x , ./images/image3--md.png 2x"
+                                media="(min-width: 50em )"
+                                width="830px"
+                                height="550px"
+                            />
+                            <source 
+                                srcset="./images/image3--sm.png 3x , ./images/image3--md.png 3x , ./images/image3--sm 3x"
+                                media="(min-width: 22em )"
+                                width="360px"
+                                height="240px"
+                            />
+                            <img
+                                width="830px"
+                                height="550px"
+                                loading="lazy"
+                                decoding="async"
+                                class=""
+                                alt="Varias personas trabajando, frente a una computadora, coordinando las
+                                tareas pendientes"
+                                src="./images/image3--md.png"
+                                srcset="
+                                ./images/image3--sm.png 1x ,
+                                ./images/image3--md.png 2x ,
+                                ./images/image3--lg.png 3x"
+                            />
+                        </picture>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione iusto sunt vel cumque, optio excepturi a corporis. Dolor non earum reiciendis cupiditate voluptatem ipsum. Exercitationem dolorum consequuntur inventore accusamus corporis deleniti aliquam neque repudiandae quis. Nam quod cupiditate deserunt illum odit consequatur? Voluptatum omnis id esse doloremque nemo magni nisi.
+                        </p>
+
+                        <h3>Conclusion</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quod consequatur nobis velit eos delectus dignissimos voluptates maiores ratione placeat alias culpa nesciunt deserunt ab voluptatibus excepturi autem ea. Porro fugit hic libero cupiditate nostrum, error cum sequi et neque quidem voluptatibus eius distinctio. Autem, aperiam velit. Eveniet ratione dolore corporis nemo odit optio est consequatur accusamus sint cupiditate quia tempore velit quae dignissimos aperiam inventore officia accusantium fugiat quis modi, iure nihil iusto libero! Ad ab, fuga, perferendis, quas minus delectus nemo consequatur temporibus quo unde natus itaque dolorum inventore ducimus tempora hic tempore aut doloremque similique aspernatur veniam saepe nobis alias! Praesentium nostrum unde modi quaerat, optio consequatur eveniet sapiente corporis nesciunt laborum deleniti ducimus quis, sed eligendi incidunt porro! Iste ut adipisci officia! Molestias neque ratione totam amet doloribus fugit impedit deserunt, possimus, reiciendis in ut mollitia illo nisi ipsum libero necessitatibus quasi pariatur dolores. Commodi deleniti delectus aperiam explicabo necessitatibus! Aliquam exercitationem reiciendis, totam unde rerum quidem aperiam magnam ullam cupiditate eos beatae quibusdam consequuntur ut error alias, ratione possimus voluptate debitis explicabo fugit, modi dignissimos? Assumenda hic, culpa accusamus temporibus, aut ipsa reprehenderit nam maxime dolores nemo sapiente quidem dolor laborum debitis? Quibusdam, harum cum?
+                        </p>
+                        <hr>
+                    </main>
+
+                    <footer>
+                        <section class="section">
+                            <article class="article">
+                                <header>
+                                    <nav>
+                                        <p>
+                                            <span>Design</span>
+                                            <span>Tools</span>
+                                            <span>SaaS</span>
+                                        </p>
+                                        <ul class="menu">
+                                            <li class="menu__item">
+                                                <a href="" target="_blank" class="menu__item--link">
+                                                    <span>
+                                                        <figure>
+                                                            <img 
+                                                                width="16px"
+                                                                height="16px"
+                                                                alt=""
+                                                                src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPg0KPHN2ZyB3aWR0aD0iODAwcHgiIGhlaWdodD0iODAwcHgiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iIzAwMDAwMCIgZD0iTTc2OCA4MzJhMTI4IDEyOCAwIDAgMS0xMjggMTI4SDE5MkExMjggMTI4IDAgMCAxIDY0IDgzMlYzODRhMTI4IDEyOCAwIDAgMSAxMjgtMTI4djY0YTY0IDY0IDAgMCAwLTY0IDY0djQ0OGE2NCA2NCAwIDAgMCA2NCA2NGg0NDhhNjQgNjQgMCAwIDAgNjQtNjRoNjR6Ii8+PHBhdGggZmlsbD0iIzAwMDAwMCIgZD0iTTM4NCAxMjhhNjQgNjQgMCAwIDAtNjQgNjR2NDQ4YTY0IDY0IDAgMCAwIDY0IDY0aDQ0OGE2NCA2NCAwIDAgMCA2NC02NFYxOTJhNjQgNjQgMCAwIDAtNjQtNjRIMzg0em0wLTY0aDQ0OGExMjggMTI4IDAgMCAxIDEyOCAxMjh2NDQ4YTEyOCAxMjggMCAwIDEtMTI4IDEyOEgzODRhMTI4IDEyOCAwIDAgMS0xMjgtMTI4VjE5MkExMjggMTI4IDAgMCAxIDM4NCA2NHoiLz48L3N2Zz4="
+                                                            />
+                                                        </figure>
+                                                    </span>
+                                                    Copy link
+                                                </a>
+                                            </li>
+                                            <li class="menu__item">
+                                                <a href="" target="_blank" class="menu__item--link">
+                                                    <figure>
+                                                        <img 
+                                                            width="16px"
+                                                            height="16px"
+                                                            alt="Compartir articulo en Twitter"
+                                                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPgo8c3ZnIHdpZHRoPSIzMnB4IiBoZWlnaHQ9IjMycHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCiAgPHBhdGggZmlsbD0iIzU1NSIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMjAsMy44OTQxNDQ3MiBDMTkuMjY0MTg0NSw0LjIxNTI5MDIxIDE4LjQ3MzU2Niw0LjQzMjM3MDI0IDE3LjY0MzQ2ODQsNC41Mjk3ODc3OCBDMTguNDkwNDQ4NCw0LjAyOTkxNTYyIDE5LjE0MTMzMjIsMy4yMzgzMDIyMiAxOS40NDcyOTQzLDIuMjk1NTc2NTggQzE4LjY1NDU5NzksMi43NTgzNzM4MiAxNy43NzYxOTA1LDMuMDk0ODYwNjUgMTYuODQxOTQxMiwzLjI3NTM3NzE0IEMxNi4wOTM2NTg3LDIuNDkwOTIzMDQgMTUuMDI3MjA2NywyIDEzLjg0Njk5MywyIEMxMS41ODExMDcyLDIgOS43NDM3NzYyMiwzLjgwODIzMzE5IDkuNzQzNzc2MjIsNi4wMzkzNzYxMiBDOS43NDM3NzYyMiw2LjM1NTY2MzUxIDkuNzgwMTM4NDQsNi42NjQyODAyNCA5Ljg1MDI2NTU3LDYuOTYwMTEyNSBDNi40NDAwMDg4Myw2Ljc5MTYxMzQgMy40MTY3NSw1LjE4MzMyOTA3IDEuMzkyOTMyNzQsMi43MzkxOTcxNCBDMS4wMzk2OTk3NSwzLjMzNTk3NTQ1IDAuODM3MzY5OTczLDQuMDMwMTcxMzEgMC44MzczNjk5NzMsNC43NzAxMzU1MiBDMC44MzczNjk5NzMsNi4xNzE1NjczNyAxLjU2MTc1NzMzLDcuNDA3NTY4NCAyLjY2Mjc1MzQsOC4xMzIxOTEyNiBDMS45OTAzMTIwNyw4LjExMDk2OTA2IDEuMzU3NjA5NDQsNy45MjkxNzQxMiAwLjgwNDM4NDI0NSw3LjYyNjk0OTYzIEMwLjgwMzg2NDc4NCw3LjY0MzgyNTExIDAuODAzODY0Nzg0LDcuNjYwNDQ0OSAwLjgwMzg2NDc4NCw3LjY3NzgzMTc2IEMwLjgwMzg2NDc4NCw5LjYzNDM2NDYxIDIuMjE4MDk1NCwxMS4yNjY5Mzk0IDQuMDk0OTA1MzksMTEuNjM4NDU1NiBDMy43NTA3NjI5NiwxMS43MzAyNDggMy4zODg0Mzk0MSwxMS43Nzk4NTE3IDMuMDE0MTY4MjgsMTEuNzc5ODUxNyBDMi43NDk1MDMyNywxMS43Nzk4NTE3IDIuNDkyNjMwMTYsMTEuNzU0Nzk0MiAyLjI0MTk5MDU3LDExLjcwNzQ5MTcgQzIuNzY0MDQ4MTUsMTMuMzExOTQwNyA0LjI3OTMxMzc5LDE0LjQ4MDE4NDEgNi4wNzQ4MjgyNSwxNC41MTI5MTIzIEM0LjY3MDQ2NzM4LDE1LjU5NjAxMTMgMi45MDE0NDU0LDE2LjI0MjEzNzYgMC45Nzg5MjI4OTksMTYuMjQyMTM3NiBDMC42NDc3NjY5NywxNi4yNDIxMzc2IDAuMzIxMjg2MTg0LDE2LjIyMzIxNjYgMS4zOTI4MjUyNWUtMTMsMTYuMTg1NjMwMyBDMS44MTU3NzM0MSwxNy4zMzE2Mjg3IDMuOTcyNTcyNSwxOCA2LjI4OTYyNTA4LDE4IEMxMy44MzY4NjM1LDE4IDE3Ljk2Mzk3NTQsMTEuODQ1MzA4MSAxNy45NjM5NzU0LDYuNTA4MDU0MjEgQzE3Ljk2Mzk3NTQsNi4zMzMxNjI4NyAxNy45NTk4MTk3LDYuMTU4NTI3MjMgMTcuOTUyMDI3OCw1Ljk4NDkxNDM0IEMxOC43NTQzMzQyLDUuNDE1NzUwNDUgMTkuNDUwMTUxMyw0LjcwNDE2NzczIDIwLDMuODk0MTQ0NzIgTDIwLDMuODk0MTQ0NzIgWiIvPg0KPC9zdmc+Cg=="
+                                                        />
+                                                    </figure>
+                                                </a>
+                                            </li>
+                                            <li class="menu__item">
+                                                <a href="" target="_blank" class="menu__item--link">
+                                                    <figure>
+                                                        <img 
+                                                            width="16px"
+                                                            height="16px"
+                                                            alt="Compartir articulo en Facebook"
+                                                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPgo8c3ZnIHdpZHRoPSIzMnB4IiBoZWlnaHQ9IjMycHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCiAgPHBhdGggZmlsbD0iIzU1NSIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTguODk2MTExMSwwIEwxLjEwMzg4ODg5LDAgQzAuNDk0MTY2NjY3LDAgMCwwLjQ5NDE2NjY2NyAwLDEuMTAzODg4ODkgTDAsMTguODk2Mzg4OSBDMCwxOS41MDU4MzMzIDAuNDk0MTY2NjY3LDIwIDEuMTAzODg4ODksMjAgTDEwLjY4MjUsMjAgTDEwLjY4MjUsMTIuMjU1IEw4LjA3NjExMTExLDEyLjI1NSBMOC4wNzYxMTExMSw5LjIzNjY2NjY3IEwxMC42ODI1LDkuMjM2NjY2NjcgTDEwLjY4MjUsNy4wMTA1NTU1NiBDMTAuNjgyNSw0LjQyNzIyMjIyIDEyLjI2MDI3NzgsMy4wMjA4MzMzMyAxNC41NjQ3MjIyLDMuMDIwODMzMzMgQzE1LjY2ODYxMTEsMy4wMjA4MzMzMyAxNi42MTcyMjIyLDMuMTAyNzc3NzggMTYuODkzODg4OSwzLjEzOTcyMjIyIEwxNi44OTM4ODg5LDUuODM5NDQ0NDQgTDE1LjI5NTU1NTYsNS44NDAyNzc3OCBDMTQuMDQyMjIyMiw1Ljg0MDI3Nzc4IDEzLjc5OTcyMjIsNi40MzU4MzMzMyAxMy43OTk3MjIyLDcuMzA5NzIyMjIgTDEzLjc5OTcyMjIsOS4yMzY5NDQ0NCBMMTYuNzg4NjExMSw5LjIzNjk0NDQ0IEwxNi4zOTk0NDQ0LDEyLjI1NTI3NzggTDEzLjc5OTcyMjIsMTIuMjU1Mjc3OCBMMTMuNzk5NzIyMiwyMCBMMTguODk2Mzg4OSwyMCBDMTkuNTA1ODMzMywyMCAyMCwxOS41MDU4MzMzIDIwLDE4Ljg5NjExMTEgTDIwLDEuMTAzODg4ODkgQzIwLDAuNDk0MTY2NjY3IDE5LjUwNTgzMzMsMCAxOC44OTYxMTExLDAgTDE4Ljg5NjExMTEsMCBaIi8+DQo8L3N2Zz4K"
+                                                        />
+                                                    </figure>
+                                                </a>
+                                            </li>
+                                            <li class="menu__item">
+                                                <a href="" target="_blank" class="menu__item--link">
+                                                    <figure>
+                                                        <img 
+                                                            width="16px"
+                                                            height="16px"
+                                                            alt="Compartir articulo en LinkedIn"
+                                                            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPgo8c3ZnIHdpZHRoPSIzMnB4IiBoZWlnaHQ9IjMycHgiIHZpZXdCb3g9IjAgMCAyMCAyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4NCiAgPHBhdGggZmlsbD0iIzU1NSIgZD0iTTE3LjAzOTE2NjcsMTcuMDQzMzMzMyBMMTQuMDc3NSwxNy4wNDMzMzMzIEwxNC4wNzc1LDEyLjQwMjUgQzE0LjA3NzUsMTEuMjk1ODMzMyAxNC4wNTUsOS44NzE2NjY2NyAxMi41MzQxNjY3LDkuODcxNjY2NjcgQzEwLjk5LDkuODcxNjY2NjcgMTAuNzU0MTY2NywxMS4wNzU4MzMzIDEwLjc1NDE2NjcsMTIuMzIwODMzMyBMMTAuNzU0MTY2NywxNy4wNDMzMzMzIEw3Ljc5MjUsMTcuMDQzMzMzMyBMNy43OTI1LDcuNSBMMTAuNjM3NSw3LjUgTDEwLjYzNzUsOC44MDA4MzMzMyBMMTAuNjc1ODMzMyw4LjgwMDgzMzMzIEMxMS4wNzMzMzMzLDguMDUwODMzMzMgMTIuMDQsNy4yNTkxNjY2NyAxMy40ODQxNjY3LDcuMjU5MTY2NjcgQzE2LjQ4NSw3LjI1OTE2NjY3IDE3LjA0LDkuMjM0MTY2NjcgMTcuMDQsMTEuODA1IEwxNy4wNCwxNy4wNDMzMzMzIEwxNy4wMzkxNjY3LDE3LjA0MzMzMzMgWiBNNC40NDc1LDYuMTk0MTY2NjcgQzMuNDk0MTY2NjcsNi4xOTQxNjY2NyAyLjcyODMzMzMzLDUuNDIyNSAyLjcyODMzMzMzLDQuNDczMzMzMzMgQzIuNzI4MzMzMzMsMy41MjUgMy40OTUsMi43NTQxNjY2NyA0LjQ0NzUsMi43NTQxNjY2NyBDNS4zOTc1LDIuNzU0MTY2NjcgNi4xNjc1LDMuNTI1IDYuMTY3NSw0LjQ3MzMzMzMzIEM2LjE2NzUsNS40MjI1IDUuMzk2NjY2NjcsNi4xOTQxNjY2NyA0LjQ0NzUsNi4xOTQxNjY2NyBaIE01LjkzMjUsMTcuMDQzMzMzMyBMMi45NjI1LDE3LjA0MzMzMzMgTDIuOTYyNSw3LjUgTDUuOTMyNSw3LjUgTDUuOTMyNSwxNy4wNDMzMzMzIFogTTE4LjUyMDgzMzMsMCBMMS40NzU4MzMzMywwIEMwLjY2LDAgMCwwLjY0NSAwLDEuNDQwODMzMzMgTDAsMTguNTU5MTY2NyBDMCwxOS4zNTU4MzMzIDAuNjYsMjAgMS40NzU4MzMzMywyMCBMMTguNTE4MzMzMywyMCBDMTkuMzMzMzMzMywyMCAyMCwxOS4zNTU4MzMzIDIwLDE4LjU1OTE2NjcgTDIwLDEuNDQwODMzMzMgQzIwLDAuNjQ1IDE5LjMzMzMzMzMsMCAxOC41MTgzMzMzLDAgTDE4LjUyMDgzMzMsMCBaIi8+DQo8L3N2Zz4K"
+                                                        />
+                                                    </figure>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </header>
+                                <main>
+                                    <hgroup>
+                                        <h1>Still thinking about it?</h1>
+                                        <p>
+                                            Sign up for our newsletter and get 10% off your next purchase.
+                                        </p>
+                                    </hgroup>
+                                    <form action="" method="get" accept-charset="utf-8" autocomplete="on">
+                                        <input type="text" placeholder="Enter your email" >
+                                        <input type="submit" value="Subscribe">
+                                    </form>
+                                </main>
+                            </article>
+                        </section>
+                    </footer>
+                </article>
+            </section>
+        </main>
         <!-- Fin Main -->
         <!-- Comienzo Footer -->
         <footer class="Footer"></footer>
