@@ -1,10 +1,8 @@
 # Plataforma5
 ## Curso ATR
-
----
 ## Desafio Uno : *Crea tu blog*
 
-## Deploy : [Ir al sitio en Netlify](https://p5-atr-desafio-uno.netlify.app/)
+Deploy : [Ir al sitio en Netlify](https://p5-atr-desafio-uno.netlify.app/)
 
 ---
 ### Consigna
@@ -21,9 +19,8 @@ _Creá un blog con los siguientes recursos:_
  - [X] Links a sitios externos (al menos uno).
     - Clicks en iconos a redes sociales.
  - [X] Links a otras páginas creadas por vos, guardadas en tu disco local. Una de ellas deberá ser un “Acerca de nosotros” (en inglés "About us"). Cada página deberá tener su título (title).
-    - 
  - [X] Un mensaje secreto que solo se pueda ver a través del inspector de texto.
-
+    - Ver comentarios en el index.html
 
  ---
 ### Recursos
